@@ -340,8 +340,8 @@ h1,h2,h3,h4 { font-family: var(--font-heading); color: var(--clr-heading); line-
 }
 
 .orbit-logo {
-  width: 160px;
-  height: 160px;
+  width: 320px;
+  height: 320px;
   object-fit: contain;
 }
 
