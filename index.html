@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gordion Space – CubeSat Alt Sistemleri</title>
+  <meta name="description" content="Gordion Space, CubeSat sınıfı uydular için modüler ADCS, mekanik gövde ve yer destek ekipmanları geliştiren Türk savunma ve uzay teknolojileri şirketidir." />
+  <link rel="icon" type="image/png" href="gordion_space_logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="gordion_space_logo.png" alt="Gordion Space Logo" />
+        <span>Gordion Space</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">Hakkımızda</a></li>
+        <li><a href="#products">Ürünler</a></li>
+        <li><a href="#vision">Vizyon</a></li>
+        <li><a href="#contact" class="btn btn--sm">İletişim</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="stars" id="stars"></div>
+    <div class="hero__content">
+      <div class="hero__badge">Türkiye'nin Uzay Alt Sistem Teknolojileri</div>
+      <h1 class="hero__title">
+        CubeSat İçin<br />
+        <span class="gradient-text">Modüler Alt Sistemler</span>
+      </h1>
+      <p class="hero__subtitle">
+        Yüksek maliyet ve uzun tedarik süresi sorunlarına Türkiye'den çözüm.
+        Tak-çalıştır ADCS, mekanik gövde ve yer destek ekipmanlarıyla küresel uzay pazarında rekabetçi teknoloji.
+      </p>
+      <div class="hero__cta">
+        <a href="#products" class="btn btn--primary">Ürünleri Keşfet</a>
+        <a href="#contact" class="btn btn--ghost">Bizimle İletişime Geç</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-card">
+          <div class="stat-card__number">250g<span>–</span>1000kg</div>
+          <div class="stat-card__label">Ölçeklenebilir Gövde Aralığı</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">4<span>+</span></div>
+          <div class="stat-card__label">Sensör Füzyon Kaynağı</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">3<span>U–16U</span></div>
+          <div class="stat-card__label">CubeSat Formatı Desteği</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">%100</div>
+          <div class="stat-card__label">Yerli & Milli Tasarım</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <div class="section-label">Şirketimiz</div>
+          <h2 class="section-title">Uzayın Sorunlarına<br />Yerli Çözümler</h2>
+          <p>
+            Gordion Space, CubeSat sınıfı uyduların karşılaştığı iki temel engeli aşmak için kuruldu:
+            yüksek maliyet ve uzun tedarik süreleri. Türkiye'de bu alanda ticari üretim yapan yerli
+            bir firmanın yokluğundan doğan dışa bağımlılığı kırmak, küresel ölçekte rekabetçi
+            tak-çalıştır çözümler sunmak temel misyonumuzdur.
+          </p>
+          <p>
+            Geliştirdiğimiz modüler ürün ekosistemi; uydu tasarımcılarının entegrasyon sürecini
+            kısaltırken güvenilirliği artırır. Her bileşen, uzay ortamının sert koşullarına —
+            vakum, titreşim ve ekstrem sıcaklık değişimlerine — dayanacak şekilde tasarlanır.
+          </p>
+        </div>
+        <div class="about__visual">
+          <div class="orbit-ring">
+            <div class="orbit-ring__inner">
+              <img src="gordion_space_logo.png" alt="Gordion Space" class="orbit-logo" />
+            </div>
+            <div class="orbit-dot orbit-dot--1"></div>
+            <div class="orbit-dot orbit-dot--2"></div>
+            <div class="orbit-dot orbit-dot--3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Ürün Ekosistemi</div>
+        <h2 class="section-title">Entegre Alt Sistem Teknolojileri</h2>
+        <p class="section-desc">
+          Üç ana ürün kategorimiz, CubeSat geliştirme sürecinin farklı kritik aşamalarını kapsar.
+        </p>
+      </div>
+
+      <div class="products__grid">
+
+        <!-- ADCS -->
+        <div class="product-card" data-index="1">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/>
+              <circle cx="32" cy="32" r="4" fill="currentColor"/>
+              <line x1="32" y1="8" x2="32" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="32" y1="50" x2="32" y2="56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="8" y1="32" x2="14" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="50" y1="32" x2="56" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 20 L24 24 M40 40 L44 44 M44 20 L40 24 M24 40 L20 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="product-card__tag">ADCS</div>
+          <h3>Yönelim Belirleme ve Kontrol Sistemi</h3>
+          <p>
+            Jiroskop, manyetometre, yıldız izleyici ve güneş sensörlerinden gelen verileri
+            sensör füzyonu algoritmalarıyla işleyen ADCS çözümümüz; manyetik tork çubukları ve
+            reaksiyon tekerleriyle hassas yönelim kontrolü sağlar.
+          </p>
+          <ul class="product-card__features">
+            <li>Çok sensörlü füzyon mimarisi</li>
+            <li>Yıldız izleyici entegrasyonu</li>
+            <li>Reaksiyon çarkı + manyetik tork</li>
+            <li>Gerçek zamanlı yönelim tahmini</li>
+          </ul>
+        </div>
+
+        <!-- FRAME -->
+        <div class="product-card product-card--featured" data-index="2">
+          <div class="product-card__badge">Öne Çıkan</div>
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="16" y="16" width="32" height="32" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="22" y="22" width="20" height="20" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="16" y1="24" x2="10" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="16" y1="32" x2="10" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="16" y1="40" x2="10" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="48" y1="24" x2="54" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="48" y1="32" x2="54" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="48" y1="40" x2="54" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="product-card__tag">Mekanik Gövde</div>
+          <h3>Modüler Yapısal Taşıyıcı</h3>
+          <p>
+            250 gramdan 1000 kg'a kadar ölçeklenebilen modüler mekanik gövdeler; vakum,
+            titreşim ve ekstrem termal değişimlere karşı yüksek dayanımlı alüminyum
+            alaşımlarından üretilir.
+          </p>
+          <ul class="product-card__features">
+            <li>3U – 16U CubeSat formatı</li>
+            <li>Havacılık sınıfı alüminyum alaşım</li>
+            <li>Titreşim ve termal dayanım</li>
+            <li>Modüler genişleme desteği</li>
+          </ul>
+        </div>
+
+        <!-- TRANSPORT BOX -->
+        <div class="product-card" data-index="3">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 28 L12 52 L52 52 L52 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 20 L8 28 L56 28 L56 20 L32 12 Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24 28 L24 40 Q32 44 40 40 L40 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="product-card__tag">Yer Destek Ekipmanı</div>
+          <h3>Uydu Taşıma Kutusu</h3>
+          <p>
+            Fırlatma öncesi lojistikten entegrasyon tesisine kadar uyduyu güvende tutan
+            taşıma kutusu; ESD koruması, titreşim sönümleme ve ortam izleme özelliklerini
+            bir arada sunar.
+          </p>
+          <ul class="product-card__features">
+            <li>ESD korumalı iç kaplama</li>
+            <li>Titreşim sönümleyici yataklar</li>
+            <li>Ortam (nem/sıcaklık) izleme</li>
+            <li>Özelleştirilebilir boyut</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section class="vision section" id="vision">
+    <div class="container">
+      <div class="vision__grid">
+        <div class="vision__content">
+          <div class="section-label">Vizyonumuz</div>
+          <h2 class="section-title">Yerli Teknoloji,<br />Küresel Rekabet</h2>
+          <p>
+            Türkiye'de CubeSat alt sistemi alanında ticari üretim yapan yerli bir firmanın
+            bulunmamasından kaynaklanan dışa bağımlılığı kırmak; küresel pazarda rekabetçi,
+            tak-çalıştır çözümler sunan öncü bir teknoloji sağlayıcısı olmak temel vizyonumuzdur.
+          </p>
+          <div class="vision__pillars">
+            <div class="pillar">
+              <div class="pillar__icon">🛰️</div>
+              <div>
+                <strong>Modülerlik</strong>
+                <p>Her bileşen bağımsız çalışır, sisteme kolayca entegre edilir.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">🇹🇷</div>
+              <div>
+                <strong>Yerlilik</strong>
+                <p>Tasarım, üretim ve test süreçleri Türkiye'de yürütülür.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">🌍</div>
+              <div>
+                <strong>Globallik</strong>
+                <p>Uydu üreticilerine küresel ölçekte hizmet vermeyi hedefliyoruz.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vision__timeline">
+          <div class="timeline-item">
+            <div class="timeline-item__dot"></div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__phase">Faz 1</div>
+              <h4>AR-GE & Prototipleme</h4>
+              <p>ADCS ve mekanik gövde prototiplerinin geliştirilmesi ve doğrulanması.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__dot"></div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__phase">Faz 2</div>
+              <h4>Sertifikasyon & Test</h4>
+              <p>Uzay ortamı simülasyonu, titreşim ve termal vakum testleri.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__dot"></div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__phase">Faz 3</div>
+              <h4>Ticari Üretim</h4>
+              <p>Seri üretim, uluslararası satış ve destek süreçlerinin başlatılması.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="section-label">İletişim</div>
+        <h2 class="section-title">Projenizi Birlikte Geliştirelim</h2>
+        <p class="section-desc">
+          CubeSat alt sistemi ihtiyaçlarınız için bizimle iletişime geçin.
+          Teknik gereksinimlerinizi değerlendirip size özel çözüm önerelim.
+        </p>
+        <a href="mailto:info@gordionspace.com" class="btn btn--primary btn--lg">
+          info@gordionspace.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="gordion_space_logo.png" alt="Gordion Space" />
+          <span>Gordion Space</span>
+        </div>
+        <p class="footer__copy">© 2025 Gordion Space. Tüm hakları saklıdır.</p>
+        <p class="footer__tagline">CubeSat Alt Sistemleri · Türkiye</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
